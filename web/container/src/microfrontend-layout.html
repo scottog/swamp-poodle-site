@@ -17,9 +17,15 @@
 
   -->
 
+  <nav class="topnav">
+    <application name="@swamp-poodle/banner"></application>
+  </nav>
   <main>
     <route default>
       <application name="@single-spa/welcome"></application>
+    </route>
+    <route path="main">
+      <application name="@swamp-poodle/main"></application>
     </route>
   </main>
 </single-spa-router>
