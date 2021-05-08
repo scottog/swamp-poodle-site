@@ -12,10 +12,9 @@ Uses the awesome open source project Single-SPA to do its magic.
 
 - Download / clone / fork repository.
 - Open in a terminal with NPM installed
-- Nav to container's root directory
-- `npm i`
-- Nav to each sibling directory of container, `npm i` there as well.
-- To run locally, `npm start dev` in each directory you wish to work on.
+- Nav to each subdirectory of `./web/`
+- `npm ci`
+- To run locally, `npm start` in each directory.
 - To build a deployable version, `npm start build` from project root.
 - To deploy, create a Pull-Request back to master branch in GitHub.com and merge it (either to your fork or the root repository).
   \*\* GitHub Actions will take care of the rest.

@@ -50,7 +50,9 @@
     {
       "imports": {
         "@single-spa/welcome": "https://unpkg.com/single-spa-welcome/dist/single-spa-welcome.js",
-        "@swamp-poodle/root-config": "//localhost:9000/swamp-poodle-root-config.js"
+        "@swamp-poodle/root-config": "//localhost:9000/swamp-poodle-root-config.js",
+        "@swamp-poodle/main": "//localhost:8080/swamp-poodle-main.js",
+        "@swamp-poodle/banner": "//localhost:8081/swamp-poodle-banner.js"
       }
     }
   </script>
@@ -75,6 +77,8 @@
 <body>
   <script>
     System.import('@swamp-poodle/root-config');
+    System.import('@swamp-poodle/banner');
+    System.import('@swamp-poodle/main');
   </script>
   <import-map-overrides-full show-when-local-storage="devtools" dev-libs></import-map-overrides-full>
 </body>
