@@ -37,6 +37,7 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^26.6.3",
     "jest-cli": "^26.6.3",
+    "material-ui": "^0.20.2",
     "prettier": "^2.2.1",
     "pretty-quick": "^3.1.0",
     "single-spa-react": "^4.0.0",

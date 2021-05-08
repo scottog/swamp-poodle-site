@@ -5,7 +5,8 @@ export default function Root(props) {
     <div>
       <section>{props.name} is mounted!</section>
       <hr />
-      <button>BUTTON!</button>
+      <span>Home</span>
+      <span>Next</span>
     </div>
   );
 }
