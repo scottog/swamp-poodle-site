@@ -1,9 +1,6 @@
 import React from "react";
+import Main from "./main/main.component";
 
 export default function Root(props) {
-  return <div>
-    <section>{props.name} is mounted!</section>
-    <hr/>
-    <button>Main button!</button>
-  </div>
+  return <Main />;
 }

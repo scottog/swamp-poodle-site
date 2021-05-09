@@ -1,13 +1,7 @@
 import React from "react";
-import Button from "@material-ui/core/Button";
+import Banner from "./banner/banner.component";
+import CssBaseline from "@material-ui/core/CssBaseline";
 
 export default function Root(props) {
-  return (
-    <div>
-      <section>{props.name} is mounted!</section>
-      <hr />
-      <Button variant="contained">Hello World</Button>
-      <span>Next</span>
-    </div>
-  );
+  return <Banner />;
 }
