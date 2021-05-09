@@ -4,7 +4,13 @@
     "es6": true
   },
   "parser": "@babel/eslint-parser",
-  "extends": ["plugin:react/recommended", "airbnb", "react-important-stuff", "prettier", "prettier/react"],
+  "extends": [
+    "plugin:react/recommended",
+    "airbnb",
+    "react-important-stuff",
+    "prettier",
+    "prettier/react"
+  ],
   "globals": {
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly"
@@ -26,9 +32,9 @@
         "singleQuotes": true,
         "jsxSingleQuote": true,
         "endOfLine": "lf",
-        "trailingComma": "es5"
+        "trailingComma": "es5",
+        "semi": false
       }
-    ],
-    "semi": [2, "never"]
+    ]
   }
 }
