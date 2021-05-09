@@ -1,11 +1,12 @@
-import React from 'react'
-import Button from '@material-ui/core/Button'
+import React from "react";
+import AboutUs from "../about/about.component";
+import WhatWeDo from "../whatWeDo/what-we-do.component";
 
 const Main = (props) => (
   <div>
-    <section>Main is mounted!</section>
-    <Button variant='contained'>Main button!</Button>
+    <AboutUs />
+    <WhatWeDo />
   </div>
-)
+);
 
-export default Main
+export default Main;
