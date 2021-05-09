@@ -1,5 +1,5 @@
-import React from "react";
-import Button from "@material-ui/core/Button";
+import React from "react"
+import Button from "@material-ui/core/Button"
 
 const Banner = (props) => {
   return (
@@ -10,7 +10,7 @@ const Banner = (props) => {
       </Button>
       <Button variant="contained">Next</Button>
     </div>
-  );
-};
+  )
+}
 
-export default Banner;
+export default Banner
