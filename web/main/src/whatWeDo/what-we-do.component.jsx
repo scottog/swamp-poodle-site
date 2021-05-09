@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react'
 
 const WhatWeDo = (props) => {
-  return <div>What We Do</div>;
-};
+  return <div>What We Do</div>
+}
 
-export default WhatWeDo;
+export default WhatWeDo
