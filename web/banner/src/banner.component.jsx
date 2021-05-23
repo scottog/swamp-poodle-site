@@ -13,6 +13,15 @@ const BannerWrapper = (props) => {
   )
 }
 
+const BannerWrapper = (props) => {
+  return (
+    <React.Fragment>
+      <CssBaseline />
+      <Banner props={props} />
+    </React.Fragment>
+  )
+}
+
 const Banner = (props) => {
   return (
     <nav id='mainNav' class='navbar navbar-default navbar-fixed-top affix-top'>
