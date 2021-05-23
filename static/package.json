@@ -4,12 +4,12 @@
   "description": "Static frontpage as starting point for SwampPoodle",
   "main": "index.js",
   "scripts": {
-    "start": "http-server . -p 8080",
+    "start": "browser-sync start -s -f . --host localhost --port 8080",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Swamp Poodle Software",
   "license": "ISC",
   "devDependencies": {
-    "http-server": "^0.12.3"
+    "browser-sync": "^2.26.14"
   }
 }
