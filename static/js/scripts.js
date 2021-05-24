@@ -8,10 +8,6 @@
 //
 
 window.addEventListener('DOMContentLoaded', (event) => {
-  // From Business-Casual
-  const listHoursArray = document.body.querySelectorAll('.list-hours li')
-  listHoursArray[new Date().getDay()].classList.add('today')
-
   // Navbar shrink function
   var navbarShrink = function () {
     const navbarCollapsible = document.body.querySelector('#mainNav')
