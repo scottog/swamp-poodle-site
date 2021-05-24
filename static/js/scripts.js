@@ -27,6 +27,25 @@ window.addEventListener('DOMContentLoaded', (event) => {
   // Shrink the navbar when page is scrolled
   document.addEventListener('scroll', navbarShrink)
 
+  const mascotAnimate = function () {
+    const mascotSources = [
+      'assets/img/swamppoodles/sit-normal.png',
+      'assets/img/swamppoodles/sit-headtilt.png',
+      'assets/img/swamppoodles/sit-pant.png',
+      'assets/img/swamppoodles/playbow.png',
+    ]
+    const mascotElement = document.body.querySelector('#mascot')
+
+    if (!mascotElement) return
+    let x = 0
+    setInterval(function () {
+      x = ++x % mascotSources.length
+      mascotElement.src = mascotSources[x]
+    }, 5000)
+  }
+
+  mascotAnimate()
+
   // Activate Bootstrap scrollspy on the main nav element
   const mainNav = document.body.querySelector('#mainNav')
   if (mainNav) {
